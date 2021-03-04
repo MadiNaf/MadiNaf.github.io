@@ -1,0 +1,46 @@
+#header {
+    width: 1045px;
+    height: 132px;
+    padding: 15.1px 0.9px 0 1.5px;
+    background-color: #554d60;
+}
+
+.header-logo {
+    margin-left: 65px;
+}
+
+.user-info {
+    margin-left: 350px;
+}
+
+#username {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.29;
+    color: #ffffff;
+}
+
+#status {
+    font-weight: bold;
+}
+
+.search-bar-container {
+    margin-top: 31.5px;
+}
+
+.input-search {
+    width: 539.7px;
+    height: 37.1px;
+    margin: 11.3px 0 0 71.1px;
+    padding: 5.5px 507.9px 10.1px 10.3px;
+    opacity: 0.5;
+    background-color: #322d3c;
+}
+
+.header-under-line {
+    width: 52px;
+    height: 0;
+    border: solid 1px #ea850e;
+    margin-top: -5px;
+    margin-left: 125px;
+}

@@ -1,0 +1,49 @@
+.sub-title-container {
+    margin-top: 67.5px;
+    margin-bottom: 55.2px;
+}
+
+.sub-title {
+    width: 463px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.3;
+    letter-spacing: normal;
+    color: #554d60;
+}
+
+.email-input {
+    width: 1046px;
+    height: 1079px;
+    margin: 1px 2.3px 0 0.3px;
+    padding: 457px 92px 57px 94px;
+    background-color: #ffffff;
+}
+
+.btn {
+    width: 180px;
+    height: 47px;
+    padding: 10px 51px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-next {
+    border-width: 1px;
+    background-color: #fff;
+    color: #000;
+    border-color: #ea850e;
+}
+
+.btn-back {
+    background-color: #ea850e;
+    color: #fff;
+    border: 0;
+}
+
+.form-container {
+    margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    margin-left: 436;
+    margin-right: 436;
+}
+
+#header {
+    background-color: #554d60;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}

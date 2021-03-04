@@ -1,0 +1,36 @@
+.jumbotron {
+    background: url("../assets//img/jumbotron_background.jpg"), linear-gradient(to left, rgba(85, 77, 96, 0) 101%, rgba(85, 77, 96, 0.51) 71%, #554d60 38%);
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 258.7px;
+}
+
+.title-container {
+    width: 500px;
+    margin-left: 90px;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.orange-text {
+    color: #ea850e;
+}
+
+.Jumbotron-under-line {
+    width: 135px;
+    height: 0;
+    border: solid 2px #ea850e;
+    margin-left: 1px;
+    margin-top: -30px;
+}
