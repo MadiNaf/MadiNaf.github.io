@@ -15,12 +15,30 @@
     color: #554d60;
 }
 
-.email-input {
+.email-input-container {
     width: 1046px;
-    height: 1079px;
     margin: 1px 2.3px 0 0.3px;
-    padding: 457px 92px 57px 94px;
+}
+
+.email-input {
+    border: 2px solid #ea850e;
     background-color: #ffffff;
+    height: 48.7px;
+    width: 314;
+}
+
+.btn-square {
+    margin-left: -5px;
+    height: 48.7px;
+    width: 48.7px;
+    background-color: #ea850e;
+    color: #fff;
+    border: 0;
+}
+
+.btn-container {
+    margin-top: 368;
+    margin-bottom: 57;
 }
 
 .btn {
