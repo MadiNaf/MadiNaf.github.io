@@ -19,7 +19,7 @@
         <div id="header">
             <div class="row justify-space-between">
                 <div class="col">
-                    <img src="./assets//logo/logo_sofaxis_header.png" alt="Sofaxis logo" class="header-logo">
+                    <img src="./assets/logo/logo_sofaxis_header.png" alt="Sofaxis logo" class="header-logo">
                 </div>
                 <div class="col">
                     <div class="user-info">
@@ -29,6 +29,9 @@
 
                     <div class="search-bar-container">
                         <input type="text" class="input-search ">
+                        <button class="btn-search">
+                            <img src="./assets/img/loupe.svg" alt="loupe" class="search-loupe">
+                        </button>
                     </div>
                 </div>
             </div>
@@ -59,19 +62,24 @@
         <div class="row justify-space-around form-container">
             <div class="email-input-container">
                 <div class="label-container">
-                    <label for="">En ajoutant une adresse manuellement </label>
+                    <label for="email" class="input-label">En ajoutant une adresse manuellement </label>
                 </div>
                 <div class="input-container">
-                    <input type="email" class="email-input" placeholder="agnes.verdier@cdg37.com">
-                    <button class="btn-square">+</button>
+                    <input type="email" id="email" class="email-input" placeholder="agnes.verdier@cdg37.com">
+                    <button class="btn-square">
+                        <img src="./assets/img/plus.svg" class="plus-icon" alt="plus" />
+                    </button>
                 </div>
             </div>
+
             <div class="col">
-                <p class="or-separator">ou</p>
-            </div>
-            <div class="col">
-                <label for="">En chargeant un fichier Excel</label>
-                <input type="file" id="excel-file" name="excel-file">
+                <div class="label-container">
+                    <label for="excel-file" class="input-label">En chargeant un fichier Excel</label>
+                </div>
+                <div class="uploader-container">
+                    <button class="upload-btn">+</button>
+                    <input type="file" id="excel-file" name="excel-file" class="uploader-input">
+                </div>
             </div>
         </div>
 

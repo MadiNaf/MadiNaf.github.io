@@ -1,10 +1,12 @@
+/* ***************** subtitle ********************** */
+
 .sub-title-container {
     margin-top: 67.5px;
     margin-bottom: 55.2px;
 }
 
 .sub-title {
-    width: 463px;
+    width: 480px;
     height: 27px;
     font-size: 20px;
     font-weight: bold;
@@ -15,25 +17,84 @@
     color: #554d60;
 }
 
+
+/* ***************** input email ******************* */
+
+.form-container {
+    margin-top: 55.2px;
+}
+
 .email-input-container {
-    width: 1046px;
+    width: 365.2px;
     margin: 1px 2.3px 0 0.3px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .email-input {
+    position: absolute;
     border: 2px solid #ea850e;
     background-color: #ffffff;
     height: 48.7px;
     width: 314;
 }
 
+.label-container {
+    margin-bottom: 7.9px;
+}
+
+.input-label {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: normal;
+}
+
+.plus-icon {
+    height: 28px;
+    width: 28px;
+}
+
+
+/* ***************** input uploader **************** */
+
+.uploader-container {
+    display: flex;
+    width: 261px;
+}
+
+.uploader-input {
+    border-radius: 0px 10px 10px 0px;
+    border: solid 1px #554d60;
+    border-left: none;
+    padding: 7px 16px 8.1px 15px;
+}
+
+
+/* ***************** buttons ************************ */
+
 .btn-square {
     margin-left: -5px;
-    height: 48.7px;
-    width: 48.7px;
+    margin-bottom: 8px;
+    height: 49px;
+    width: 51px;
     background-color: #ea850e;
     color: #fff;
     border: 0;
+    position: absolute;
+    right: 0;
+}
+
+.upload-btn {
+    border-radius: 10px 0px 0px 10px;
+    border: solid 1px #554d60;
+    border-right: none;
+    margin-left: 0px;
+    height: 48.7px;
+    width: 48.7px;
+    background-color: #fff;
+    color: #f00;
 }
 
 .btn-container {
@@ -60,8 +121,4 @@
     background-color: #ea850e;
     color: #fff;
     border: 0;
-}
-
-.form-container {
-    margin-top: 50px;
 }
