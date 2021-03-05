@@ -2,6 +2,7 @@ body {
     font-family: Arial;
     margin-left: 436;
     margin-right: 436;
+    background-color: #e4e4e4;
 }
 
 #header {
@@ -26,4 +27,16 @@ body {
 
 .align-center {
     align-items: center;
+}
+
+
+/* sections */
+
+.section {
+    background-color: #fff;
+    width: 1046px;
+}
+
+#content-section {
+    height: 689.5px;
 }
