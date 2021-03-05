@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/jumbotron.css">
     <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/modal.css">
 
     <title>Sofaxis - maquette</title>
 </head>
@@ -80,7 +81,8 @@
                     <button class="btn-upload">
                         <img src="./assets/img/upload.svg" class="upload-icon" alt="upload icon" />
                     </button>
-                    <input type="file" id="excel-file" name="excel-file" class="uploader-input">
+                    <!--<input type="file" id="excel-file" name="excel-file" class="uploader-input">-->
+                    <button id="file-import" class="btn-import">Importer des collectivités</button>
                 </div>
             </div>
         </div>
@@ -90,6 +92,42 @@
             <button class="btn btn-next">suivant</button>
         </div>
     </section>
+
+    <!-- #################### upload modal #################### -->
+    <div id="upload-modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="header-modal row justify-space-between">
+                <p>Importer vos collectivités</p>
+                <span class="close">&times;</span>
+            </div>
+
+            <p class="indication">Chargez à présent votre fichier excel pour importer vos collectivités</p>
+
+            <div class="file-upload">
+                <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                <div class="drag-text">
+                    <p>
+                        Glissez-déposez votre fichier .xls ici ou bien
+                        <span class="underline-text"> parcourez votre ordinateur</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="upload-information row justify-space-between align-top">
+                <p class="email-indication">Une adresse mail par ligne</p>
+                <p class="length-max">Taille maximale autorisé : 10MB</p>
+            </div>
+
+            <div class="btn-uploader-container row justify-end">
+                <button class="btn-upload-modal">Importer</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

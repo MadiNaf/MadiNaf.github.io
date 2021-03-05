@@ -103,6 +103,23 @@
     height: 22px;
 }
 
+.btn-import {
+    border-radius: 0px 10px 10px 0px;
+    border: solid 1px #554d60;
+    border-left: none;
+    background-color: #fff;
+    text-shadow: 1px 1px #fff;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: left;
+    color: #554d60;
+    width: 261px;
+}
+
 
 /* ***************** buttons ************************ */
 
@@ -126,7 +143,6 @@
     height: 48.7px;
     width: 48.7px;
     background-color: #fff;
-    color: #f00;
 }
 
 .btn-container {
